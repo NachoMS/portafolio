@@ -1,0 +1,119 @@
+/*SECTION CONTACTO*/
+
+footer .contacto {
+    height: auto;
+    width: 100%;
+    background: url(../img/fondo.jpg);
+}
+
+footer .contacto .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: none;
+}
+
+
+.contacto .contenedor .formulario {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacto .contenedor .formulario .form-input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #a79f9d;
+    border-radius: 0.2em;
+}
+
+.contacto .contenedor .formulario .form-input:hover{
+    border: 1px solid #77716f;
+}
+
+.contacto .contenedor .formulario .form-msg {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.contacto .contenedor .formulario .boton {
+    font-family: inherit;
+    background: darkcyan;;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: .5rem 0;
+    border-radius: 0.2em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.contacto .contenedor .formulario .boton:hover {
+    background: #3895EA;
+}
+
+footer .pie {
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer .pie .footer {
+    color: #fff;
+    margin: 20px 0px;
+}
+
+.footer-parrafo{
+    margin-top: 10px;
+}
+
+@media (max-width:950px){
+    .footer-redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 350px;
+        font-size: 25px;
+        padding: 10px 0px;
+    }
+
+    .footer-icon {
+        padding: 0px 5px;
+        color: #fff;
+    }
+
+    .footer-linkedin {
+        background: #0e76a8;
+        width: 32px;
+        border-radius: 5px 0px;
+    }
+    
+    .footer-github {
+        background: #000000;
+        width: 34px;
+    }
+    
+    .footer-instagram {
+        background: #c32aa3;
+        width: 32px;
+        border-radius: 0px 5px;
+    }
+}
+
+@media (min-width:950px){
+    .footer-redes {
+        display: none;
+    }
+}

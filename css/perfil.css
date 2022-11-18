@@ -1,0 +1,147 @@
+/*-------- SECTION-PERFIL ---------
+---------------------------*/
+
+.perfil-info{
+    margin-top: 25px;
+}
+
+.perfil-img{
+    width: 80%;
+    max-width: 300px;
+    filter: drop-shadow(2px 4px 8px #000);
+}
+
+.perfil-img-section{
+    position: relative;
+    line-height: 50%;
+    display: inline;
+}
+
+.perfil-img-section::after{
+    content: '';
+    position: absolute;
+    background: linear-gradient(to right, #4717F6, #A239CA, #4717F6);
+    height: 10px;
+    bottom: 0;
+    right: 0;
+    width: 100%; 
+}
+
+.perfil {
+    text-align: center;
+}
+
+.perfil-titulo{
+    color: #4717F6;
+    font-family: 'roboto';
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 5;
+}
+
+.perfil-detalles{
+    color: #e7dfdd;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'roboto';
+    letter-spacing: 3px;
+    line-height: 1.5;
+    max-width: 450px;
+    margin: 2.5px auto;
+}
+
+.perfil-iconos {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+}
+
+.perfil-iconos .html{
+    color: #f06529;
+    font-size: 30px;
+}
+
+.perfil-iconos .css{
+    color: #2965f1;
+    font-size: 30px;
+}
+
+.perfil-iconos .js{
+    color: #f0db4f;
+    font-size: 30px;
+}
+
+/*.perfil-iconos .wp{
+    color: #fff;
+    font-size: 30px;
+}*/
+
+i:hover{
+    filter: brightness(130%);
+}
+
+@media (min-width:950px){
+
+    .perfil{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .perfil-info{
+        margin-top: 0;
+        text-align: left;
+    }
+    
+    .perfil-img{
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    .perfil-img-section{
+        position: relative;
+        line-height: 50%;
+        display: inline;
+    }
+    
+    .perfil-img-section::after{
+        content: '';
+        position: absolute;
+        background: linear-gradient(to right, #4717F6, #A239CA, #4717F6);
+        height: 10px;
+        bottom: 0;
+        right: 0;
+        width: 100%; 
+    }
+    
+    .perfil-titulo{
+        color: #4717F6;
+        font-family: 'roboto';
+        font-size: 50px;
+        font-weight: 600;
+        margin: 0;
+        letter-spacing: 5;
+    }
+    
+    .perfil-detalles{
+        color: #e7dfdd;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'roboto';
+        letter-spacing: 3px;
+        line-height: 1.5;
+        max-width: 450px;
+        margin: 0;
+    }
+
+    .perfil-iconos {
+        max-width: 350px;
+        margin: 5px 0px;
+        padding: 0px;
+    }
+    
+}

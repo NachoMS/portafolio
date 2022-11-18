@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0E0B16;
+    font-family: "Roboto", "Lato";
+    width: 100%;
+    padding-top: 70px ; /*para tener un espaciado por la
+                          barra de navegacion fija*/
+}
+
+section[id]{
+    scroll-margin-top: 50px;
+} /*le damos un margen a nuestro navegador cuando le
+    seleccionamos la seccion*/
+
+html{
+    scroll-behavior: smooth;
+} /*va a bjar mas lento a la seccion*/
+
+.horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.vertical-padding {
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+@media (min-width:950px) {
+    .horizontal-padding {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

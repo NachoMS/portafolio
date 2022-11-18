@@ -1,0 +1,119 @@
+/*-----------SECTION SERVICIOS --------
+--------------------------------------*/
+
+.servicios {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/textura.png);   
+}
+
+.servicios .proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulos {
+    font-size: 30px;
+    font-weight: 400;
+    color: #a239ca;    
+}
+
+.servicios .proyectos .tarjetas {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.servicios .proyectos .tarjetas .informacion {
+    padding: 10px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #0E0B16;
+    margin: 20px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.servicios .proyectos .tarjetas .informacion:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 10px 0 darkcyan;;
+    transition: 1s;
+}
+
+.servicios .proyectos .tarjetas .informacion .service-logos{
+    height: 50px;
+    width: 50px;
+    background: darkcyan;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 50px;
+}
+
+.title {
+    color: #fff;
+    position: relative;
+    font-weight: 400;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    background: darkcyan;;
+    left: 0;
+    top: calc(100% + 5px);
+    width: 100%;
+    height: 3px;   
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    background: darkcyan;;
+    left: 0;
+    bottom: calc(100% + 5px);
+    width: 100%;
+    height: 3px;   
+}
+
+.servicios .proyectos .tarjetas .informacion p {
+    margin: 10px;
+    margin-top: 0;
+    padding: 2px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 200;
+    font-family: 'lato';
+}
+
+@media (max-width:1000px){
+    .servicios .proyectos .tarjetas {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+@media (max-width:450px){
+    .servicios .proyectos .tarjetas {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+}
