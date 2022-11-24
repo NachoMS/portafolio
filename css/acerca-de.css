@@ -1,7 +1,7 @@
 /*-------- SECTION ACERCA DE MI---------
 ---------------------------*/
 .acerca-de{
-    background: url(../img/textura.png);
+    background: #fff;
     text-align: center;
 }
 
@@ -84,7 +84,7 @@ section .contenedor .info .boton {
 
 @media (min-width:950px){
     .acerca-de{
-        background: url(../img/textura.png);
+        background: #fff;
         text-align: center;
     }
     

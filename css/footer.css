@@ -3,7 +3,7 @@
 footer .contacto {
     height: auto;
     width: 100%;
-    background: url(../img/fondo.jpg);
+    background:#fff;
 }
 
 footer .contacto .contenedor {
