@@ -80,6 +80,11 @@ footer .pie .footer {
 }
 
 @media (max-width:950px){
+
+    footer .contacto {
+        background:#fff;
+    }
+
     .footer-redes {
         display: flex;
         justify-content: center;
