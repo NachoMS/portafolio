@@ -20,6 +20,20 @@
     --detalles: #e7dfdd;
 }
 
+@media (prefers-color-scheme: dark){
+:root {
+    --blanco: #10101b;
+    --negro: rgba(255, 255, 255, 0.87);
+    --violeta: #a397cc;
+    --rosa: #c8b9ce;
+    --celeste: rgb(77, 110, 110);
+    --gris: #25201e;
+    --gris-oscuro: #6b6969;
+    --negro-transparente: #9dc8db;
+    --detalles: #2b2625;
+}
+}
+
 body {
     background: var(--negro-transparente);
     font-family: "Roboto", "Lato";
