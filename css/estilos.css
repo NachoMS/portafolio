@@ -8,8 +8,20 @@
     box-sizing: border-box;
 }
 
+:root {
+    --blanco: #fff;
+    --negro: #000;
+    --violeta: #4717F6;
+    --rosa: #A239CA;
+    --celeste: darkcyan;
+    --gris: #77716f;
+    --gris-oscuro: #292929;
+    --negro-transparente: #0E0B16;
+    --detalles: #e7dfdd;
+}
+
 body {
-    background: #0E0B16;
+    background: var(--negro-transparente);
     font-family: "Roboto", "Lato";
     width: 100%;
     padding-top: 70px ; /*para tener un espaciado por la

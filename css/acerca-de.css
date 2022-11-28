@@ -1,7 +1,7 @@
 /*-------- SECTION ACERCA DE MI---------
 ---------------------------*/
 .acerca-de{
-    background: #fff;
+    background: var(--blanco);
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ section .contenedor .foto{
 section .contenedor .foto img {
     width: 80%;
     max-width: 350px;
-    box-shadow: 0px 0px 30px 5px #A239CA;
+    box-shadow: 0px 0px 30px 5px var(--rosa);
     filter: grayscale(1);
     transition: all 1s;
 }
@@ -35,12 +35,12 @@ section .contenedor .foto img:hover {
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 30px;
-    color: #a239ca; 
+    color: var(--rosa); 
 }
 
 .acerca-de-subtitulo {
     font-size: 18px;
-    color: #292929;
+    color: var(--gris-oscuro);
     font-family: 'lato';
     margin-top: 10px;
 }
@@ -48,14 +48,14 @@ section .contenedor .foto img:hover {
 .acerca-de-parrafo {
     text-align: center;
     line-height: 1.8;
-    color: #77716f;
+    color: var(--gris);
     font-weight: 500;
     font-size: 20px;
     padding: 5px 0;
 }
 
 .acerca-de-span {
-    color: darkcyan;
+    color: var(--celeste);
 }
 
 section .contenedor .info .boton {
@@ -66,16 +66,17 @@ section .contenedor .info .boton {
 .btn-cv {
     font-weight: 500;
     padding: 5px 10px;
-    background: #4717F6;
-    color: #fff;
+    background: var(--violeta);
+    color: var(--blanco);
     border: none;
     border-radius: 20px;
     box-shadow: 1px 3px 11px -5px rgba(110, 43, 187, 0.699);
+    transition: 0.5s;
 }
 
 .btn-cv:hover {
-    background: #fff;
-    color: #4717F6;
+    background: var(--blanco);
+    color: var(--violeta);
     box-shadow: none;
     cursor: pointer;
     transition: 0.5s;
@@ -84,7 +85,7 @@ section .contenedor .info .boton {
 
 @media (min-width:950px){
     .acerca-de{
-        background: #fff;
+        background: var(--blanco);
         text-align: center;
     }
     
@@ -113,7 +114,7 @@ section .contenedor .info .boton {
     .acerca-de-parrafo {
         text-align: left;
         line-height: 2;
-        color: #77716f;
+        color: var(--gris);
         font-weight: 500;
         font-size: 22px;
         margin: 10px 0px;
@@ -123,12 +124,12 @@ section .contenedor .info .boton {
         font-size: 30px;
         font-weight: 400;
         margin-bottom: 15px;
-        color: #a239ca;    
+        color: var(--rosa);    
     }
     
     .acerca-de-subtitulo {
         font-size: 25px;
-        color: #292929;
+        color: var(--gris-oscuro);
         font-family: 'lato';
     }
     
@@ -140,7 +141,7 @@ section .contenedor .info .boton {
     
     section .contenedor .foto img {
         max-width: 980px;
-        box-shadow: 0px 0px 30px 5px #A239CA;
+        box-shadow: 0px 0px 30px 5px var(--rosa);
         filter: grayscale(1);
         transition: all 1s;
     }
@@ -161,16 +162,17 @@ section .contenedor .info .boton {
         font-weight: 500;
         padding: 10px 20px;
         font-size: 16px;
-        background: #4717F6;
-        color: #fff;
+        background: var(--violeta);
+        color: var(--blanco);
         border: none;
         border-radius: 20px;
         box-shadow: 1px 3px 11px -5px rgba(110, 43, 187, 0.699);
+        transition: 0.5s;
     }
     
     .btn-cv:hover {
-        background: #fff;
-        color: #4717F6;
+        background: var(--blanco);
+        color: var(--violeta);
         box-shadow: none;
         cursor: pointer;
         transition: 0.5s;

@@ -2,7 +2,7 @@
 ---------------------------------*/
 
 .destrezas {
-    background: linear-gradient(#A239CA, rgba(33, 16, 16, .8)), url(../img/1.jpg);
+    background: linear-gradient( var(--rosa), rgba(33, 16, 16, .8)), url(../img/1.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +21,7 @@
 .destrezas .skills .titulos {
     font-size: 30px;
     font-weight: 400;
-    color: #fff;    
+    color: var(--blanco);    
 }
 
 .destrezas .skills .hability {
@@ -39,19 +39,19 @@
     margin-left: 5px;
     height: 10px;
     width: 10px;
-    background: #fff;
+    background: var(--blanco);
 }
 
 .destrezas .skills .hability p {
     text-align: left;
-    color: #fff;
+    color: var(--blanco);
     font-size: 14px;
     font-weight: 400;
 }
 
 .destrezas .skills .hability .habilidad {
     text-align: right;
-    background: #ccc;
+    background: var(--detalles);
     font-weight: bold;
     border-radius: 5px;
     font-size: 12px;

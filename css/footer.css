@@ -3,7 +3,7 @@
 footer .contacto {
     height: auto;
     width: 100%;
-    background:#fff;
+    background: var(--blanco);
 }
 
 footer .contacto .contenedor {
@@ -31,12 +31,12 @@ footer .contacto .contenedor {
     padding: .8em 1em;
     outline: none;
     border: none;
-    border: 1px solid #a79f9d;
+    border: 1px solid var(--detalles);
     border-radius: 0.2em;
 }
 
 .contacto .contenedor .formulario .form-input:hover{
-    border: 1px solid #77716f;
+    border: 1px solid var(--gris);
 }
 
 .contacto .contenedor .formulario .form-msg {
@@ -47,9 +47,9 @@ footer .contacto .contenedor {
 
 .contacto .contenedor .formulario .boton {
     font-family: inherit;
-    background: darkcyan;;
+    background: var(--celeste);
     font-size: 1rem;
-    color: #fff;
+    color: var(--blanco);
     border: none;
     font-weight: 300;
     padding: .5rem 0;
@@ -59,11 +59,11 @@ footer .contacto .contenedor {
 }
 
 .contacto .contenedor .formulario .boton:hover {
-    background: #3895EA;
+    filter: brightness(130%);
 }
 
 footer .pie {
-    background: #000000;
+    background: var(--negro);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,7 +71,7 @@ footer .pie {
 }
 
 footer .pie .footer {
-    color: #fff;
+    color: var(--blanco);
     margin: 20px 0px;
 }
 
@@ -82,7 +82,7 @@ footer .pie .footer {
 @media (max-width:950px){
 
     footer .contacto {
-        background:#fff;
+        background:var(--blanco);
     }
 
     .footer-redes {
@@ -96,7 +96,7 @@ footer .pie .footer {
 
     .footer-icon {
         padding: 0px 5px;
-        color: #fff;
+        color: var(--blanco);
     }
 
     .footer-linkedin {

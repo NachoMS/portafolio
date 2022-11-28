@@ -8,7 +8,7 @@
 .perfil-img{
     width: 80%;
     max-width: 300px;
-    filter: drop-shadow(2px 4px 8px #000);
+    filter: drop-shadow(2px 4px 8px var(--negro));
 }
 
 .perfil-img-section{
@@ -20,7 +20,7 @@
 .perfil-img-section::after{
     content: '';
     position: absolute;
-    background: linear-gradient(to right, #4717F6, #A239CA, #4717F6);
+    background: linear-gradient(to right, var(--violeta), var(--rosa), var(--violeta));
     height: 10px;
     bottom: 0;
     right: 0;
@@ -32,7 +32,7 @@
 }
 
 .perfil-titulo{
-    color: #4717F6;
+    color: var(--violeta);
     font-family: 'roboto';
     font-size: 35px;
     font-weight: 600;
@@ -41,7 +41,7 @@
 }
 
 .perfil-detalles{
-    color: #e7dfdd;
+    color: var(--detalles);
     font-size: 20px;
     font-weight: 500;
     font-family: 'roboto';
@@ -111,7 +111,7 @@ i:hover{
     .perfil-img-section::after{
         content: '';
         position: absolute;
-        background: linear-gradient(to right, #4717F6, #A239CA, #4717F6);
+        background: linear-gradient(to right, var(--violeta), var(--rosa), var(--violeta));
         height: 10px;
         bottom: 0;
         right: 0;
@@ -128,7 +128,7 @@ i:hover{
     }
     
     .perfil-detalles{
-        color: #e7dfdd;
+        color: var(--detalles);
         font-size: 25px;
         font-weight: 500;
         font-family: 'roboto';
