@@ -8,7 +8,7 @@
 .perfil-img{
     width: 80%;
     max-width: 300px;
-    filter: drop-shadow(2px 4px 8px var(--negro));
+    filter: drop-shadow(2px 4px 8px var(--negro-transparente));
 }
 
 .perfil-img-section{

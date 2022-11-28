@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="es" data-theme="dark">
 <head>
     <meta charset="utf-8">
     <meta name="viewport"
@@ -15,6 +14,9 @@
     <link rel="stylesheet" href="css/servicios.css">
     <link rel="stylesheet" href="css/destrezas.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script defer src="js/js.js"></script>
+    <!--<script defer src="js/colorToggle.js"></script>-->
     <title>Portafolio IMS</title>
 </head>
 
@@ -24,6 +26,12 @@
     <header class="top-header">
         <nav class="top-nav">
             <h2 href="#" class="gradient-text">IMS</h2>
+            <button class="dark-mode-btn" aria-label="activar modo claro">
+                <img src="img/sol.svg" height="20" width="25" alt="light">
+            </button>
+            <button class="light-mode-btn" aria-label="activar modo oscuro">
+                <img src="img/luna.svg" height="20" width="25" alt="dark">
+            </button>
             <button class="open-menu" aria-label="Abrir menu">
                 <img src="img/barra.png" width="40" height="40" alt="abrir menu">
             </button>
@@ -201,8 +209,7 @@
         
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script defer src="js/js.js"></script>
+
 </body>
 
 </html>
