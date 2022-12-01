@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="es" data-theme="dark">
+<html lang="es" >
 <head>
     <meta charset="utf-8">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/6d8ab25b13.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script defer src="js/js.js"></script>
+    <script defer src="js/colorToggle.js"></script>
     <!--<script defer src="js/colorToggle.js"></script>-->
     <title>Portafolio IMS</title>
 </head>
@@ -26,15 +28,14 @@
     <header class="top-header">
         <nav class="top-nav">
             <h2 href="#" class="gradient-text">IMS</h2>
-            <button class="dark-mode-btn" aria-label="activar modo claro">
-                <img src="img/sol.svg" height="20" width="25" alt="light">
-            </button>
-            <button class="light-mode-btn" aria-label="activar modo oscuro">
-                <img src="img/luna.svg" height="20" width="25" alt="dark">
-            </button>
+            <button class="switch active" id="switch">
+                <span class="botones"><i class="fa-solid fa-sun"></i></span>
+                <span class="botones"><i class="fa-solid fa-moon"></i></span>
+           </button>
             <button class="open-menu" aria-label="Abrir menu">
                 <img src="img/barra.png" width="40" height="40" alt="abrir menu">
             </button>
+            
             <ul class="menu">
                 <button class="close-menu" aria-label="Cerrar menu">
                     <img src="img/close.png" width="50" height="50" alt="cerrar menu">

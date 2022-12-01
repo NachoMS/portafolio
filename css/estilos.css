@@ -16,7 +16,6 @@
     --rosa: #A239CA;
     --celeste: darkcyan;
     --gris: #77716f;
-    --gris-oscuro: #292929;
     --negro-transparente: #0E0B16;
     --detalles: #e7dfdd;
     --transition: 0.2s ease-in-out;
@@ -24,15 +23,14 @@
 }
 
 @media (prefers-color-scheme: dark){
-:root[data-theme="dark"] {
-    --blanco: #0E0B16;
-    --negro: rgba(255, 255, 255, 0.336);
-    --violeta: #3b2970;
-    --rosa: #66357c;
-    --celeste: rgba(76, 170, 170, 0.87);
-    --gris: #6e6b69;
-    --gris-oscuro: #eedfdfdc;
-    --negro-transparente:rgba(80, 80, 83, 0.87);
+:root {
+    --blanco: rgba(0, 0, 0, 0.87);
+    --negro: rgba(255, 255, 255, 0.877);
+    --violeta: #4717F6;
+    --rosa: #4717F6;
+    --celeste: darkcyan;
+    --gris: #bebbb8;
+    --negro-transparente: #0E0B16;
     --detalles: #c7c2c2;
 }
 }
@@ -47,6 +45,10 @@ body {
     width: 100%;
     padding-top: 70px ; /*para tener un espaciado por la
                           barra de navegacion fija*/
+}
+
+body.dark{
+    background: #000;
 }
 
 section[id]{

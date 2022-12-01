@@ -1,17 +1,6 @@
-const lightModeBtn = document.querySelector(".light-mode-btn");
-const darkModeBtn = document.querySelector(".dark-mode-btn");
+const btnSwitch = document.querySelector('#switch');
 
-lightModeBtn.addEventListener("click", setDarkMode);
-darkModeBtn.addEventListener("click", setLightMode);
-
-function setDarkMode() {
-    setUserTheme("dark");
-}
-
-function setLightMode() {
-    setUserTheme("light");
-}
-
-function setUserTheme(newTheme) {
-    document.documentElement.setAttribute("dataTheme", newTheme);
-}
+btnSwitch.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    btnSwitch.classList.toggle('active');
+});

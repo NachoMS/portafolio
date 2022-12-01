@@ -40,7 +40,7 @@ section .contenedor .foto img:hover {
 
 .acerca-de-subtitulo {
     font-size: 18px;
-    color: var(--gris-oscuro);
+    color: var(--gris);
     font-family: 'lato';
     margin-top: 10px;
 }
@@ -129,7 +129,7 @@ section .contenedor .info .boton {
     
     .acerca-de-subtitulo {
         font-size: 25px;
-        color: var(--gris-oscuro);
+        color: var(--gris);
         font-family: 'lato';
     }
     
