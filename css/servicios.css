@@ -4,7 +4,7 @@
 .servicios {
     width: 100%;
     height: auto;
-    background-image: var(--blanco);   
+    background: var(--blanco);   
 }
 
 .servicios .proyectos {
@@ -40,6 +40,10 @@
     margin: 20px;
     border-radius: 15px;
     transition: 1s;
+}
+
+body.dark .servicios .proyectos .tarjetas .informacion {
+    background: #000;
 }
 
 .servicios .proyectos .tarjetas .informacion:hover {

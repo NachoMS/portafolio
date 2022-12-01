@@ -18,25 +18,7 @@
     --gris: #77716f;
     --negro-transparente: #0E0B16;
     --detalles: #e7dfdd;
-    --transition: 0.2s ease-in-out;
 }
-}
-
-@media (prefers-color-scheme: dark){
-:root {
-    --blanco: rgba(0, 0, 0, 0.87);
-    --negro: rgba(255, 255, 255, 0.877);
-    --violeta: #4717F6;
-    --rosa: #4717F6;
-    --celeste: darkcyan;
-    --gris: #bebbb8;
-    --negro-transparente: #0E0B16;
-    --detalles: #c7c2c2;
-}
-}
-
-* {
-    transition: background-color var(--transition);
 }
 
 body {
@@ -45,10 +27,12 @@ body {
     width: 100%;
     padding-top: 70px ; /*para tener un espaciado por la
                           barra de navegacion fija*/
+    transition: 0.5s ease-in-out;
 }
 
 body.dark{
     background: #000;
+    transition: 0.5s ease-in-out;
 }
 
 section[id]{

@@ -6,6 +6,10 @@ footer .contacto {
     background: var(--blanco);
 }
 
+body.dark .contacto {
+    background: #292929;
+}
+
 footer .contacto .contenedor {
     display: flex;
     flex-direction: column;

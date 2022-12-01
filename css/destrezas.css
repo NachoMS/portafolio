@@ -11,6 +11,14 @@
     text-align: center;
 }
 
+body.dark .destrezas {
+    background: linear-gradient( var(--rosa), rgba(33, 16, 16, .8)), url(../img/1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .skills {
     display: flex;
     flex-direction: column;
