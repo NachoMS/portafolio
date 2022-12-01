@@ -64,7 +64,7 @@ body.dark .servicios .proyectos .tarjetas .informacion {
 }
 
 .title {
-    color: var(--blanco);
+    color: var(--letras);
     position: relative;
     font-weight: 400;
 }
@@ -94,7 +94,7 @@ body.dark .servicios .proyectos .tarjetas .informacion {
     margin-top: 0;
     padding: 2px;
     line-height: 1.5;
-    color: var(--blanco);
+    color: var(--letras);
     font-weight: 200;
     font-family: 'lato';
 }

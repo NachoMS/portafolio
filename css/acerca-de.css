@@ -79,7 +79,7 @@ section .contenedor .info .boton {
     font-weight: 500;
     padding: 5px 10px;
     background: var(--violeta);
-    color: var(--blanco);
+    color: var(--letras);
     border: none;
     border-radius: 20px;
     box-shadow: 1px 3px 11px -5px rgba(110, 43, 187, 0.699);
@@ -87,7 +87,7 @@ section .contenedor .info .boton {
 }
 
 .btn-cv:hover {
-    background: var(--blanco);
+    background: var(--letras);
     color: var(--violeta);
     box-shadow: none;
     cursor: pointer;

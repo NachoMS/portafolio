@@ -41,7 +41,7 @@
 }
 
 .perfil-detalles{
-    color: var(--detalles);
+    color: var(--letras);
     font-size: 20px;
     font-weight: 500;
     font-family: 'roboto';
@@ -128,7 +128,7 @@ i:hover{
     }
     
     .perfil-detalles{
-        color: var(--detalles);
+        color: var(--letras);
         font-size: 25px;
         font-weight: 500;
         font-family: 'roboto';

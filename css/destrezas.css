@@ -29,7 +29,7 @@ body.dark .destrezas {
 .destrezas .skills .titulos {
     font-size: 30px;
     font-weight: 400;
-    color: var(--blanco);    
+    color: var(--letras);    
 }
 
 .destrezas .skills .hability {
@@ -47,19 +47,19 @@ body.dark .destrezas {
     margin-left: 5px;
     height: 10px;
     width: 10px;
-    background: var(--blanco);
+    background: var(--letras);
 }
 
 .destrezas .skills .hability p {
     text-align: left;
-    color: var(--blanco);
+    color: var(--letras);
     font-size: 14px;
     font-weight: 400;
 }
 
 .destrezas .skills .hability .habilidad {
     text-align: right;
-    background: var(--detalles);
+    background: var(--letras);
     font-weight: bold;
     border-radius: 5px;
     font-size: 12px;

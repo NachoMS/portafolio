@@ -36,6 +36,13 @@
     width: 46px;
 }
 
+body.dark .linkedin,
+body.dark .github,
+body.dark .instagram {
+    background: #a7a4a4;
+    color: #000000;
+}
+
 .icon:first-child {
     border-radius: 1rem 0 0 0;
 }

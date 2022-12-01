@@ -17,8 +17,21 @@
     --celeste: darkcyan;
     --gris: #77716f;
     --negro-transparente: #0E0B16;
-    --detalles: #e7dfdd;
+    --letras: #e7dfdd;
 }
+}
+
+@media (prefers-color-scheme: dark){
+    :root {
+        --blanco: #292929;
+        --negro: #000;
+        --violeta: #4717F6;
+        --rosa: #A239CA;
+        --celeste: darkcyan;
+        --gris: #77716f;
+        --negro-transparente: #000;
+        --letras: #e7dfdd;
+    }
 }
 
 body {
