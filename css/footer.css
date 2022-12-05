@@ -112,6 +112,7 @@ footer .pie .footer {
     .footer-github {
         background: #000000;
         width: 34px;
+        border-radius: 0px 0px 5px 5px;
     }
     
     .footer-instagram {
