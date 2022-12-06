@@ -7,7 +7,7 @@ footer .contacto {
 }
 
 body.dark .contacto {
-    background: #292929;
+    background: var(--negro-transparente);
 }
 
 footer .contacto .contenedor {

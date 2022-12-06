@@ -12,12 +12,13 @@
 }
 
 body.dark .destrezas {
-    background: linear-gradient( var(--rosa), rgba(33, 16, 16, .8)), url(../img/1.jpg);
+    background: linear-gradient( var(--violeta), rgba(0, 0, 0, 0.8)), url(../img/1.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+
 
 .skills {
     display: flex;

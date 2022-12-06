@@ -6,7 +6,7 @@
 }
 
 body.dark .acerca-de{
-    background: #292929;
+    background: var(--negro-transparente);
 }
 
 .acerca-de .contenedor {

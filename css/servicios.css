@@ -6,6 +6,9 @@
     height: auto;
     background: var(--blanco);   
 }
+ body.dark .servicios {
+    background: var(--negro-transparente);
+ }
 
 .servicios .proyectos {
     display: flex;
@@ -43,7 +46,7 @@
 }
 
 body.dark .servicios .proyectos .tarjetas .card {
-    background: #000;
+    background: var(--negro);
 }
 
 .servicios .proyectos .tarjetas .card:hover {
