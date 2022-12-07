@@ -3,10 +3,12 @@
 .acerca-de{
     background: var(--blanco);
     text-align: center;
+    transition: 0.5s ease-in-out;
 }
 
 body.dark .acerca-de{
     background: var(--negro-transparente);
+    transition: 0.5s ease-in-out;
 }
 
 .acerca-de .contenedor {
@@ -50,7 +52,7 @@ section .contenedor .foto img:hover {
 }
 
 body.dark .acerca-de-subtitulo{
-    color: rgba(255, 255, 255, 0.719);
+    color: var(--blanco);
 }
 
 .acerca-de-parrafo {

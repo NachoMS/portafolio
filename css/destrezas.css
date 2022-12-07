@@ -9,6 +9,7 @@
     background-position: center center;
     padding: 75px 0;
     text-align: center;
+    transition: 0.5s ease-in-out;
 }
 
 body.dark .destrezas {
@@ -17,6 +18,7 @@ body.dark .destrezas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    transition: 0.5s ease-in-out;
 }
 
 
