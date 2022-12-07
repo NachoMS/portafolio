@@ -92,6 +92,11 @@ body.dark .destrezas {
     animation: fillbootstrap 2s forwards;
 }
 
+.destrezas .skills .hability .sass {
+    animation: fillsass 2s forwards;
+}
+
+
 @keyframes fillhtml {
     0% {
         width: 0;
@@ -151,6 +156,17 @@ body.dark .destrezas {
         width: 80%;
     }
 }
+
+@keyframes fillsass {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
 
 
 @media (max-width:860px){

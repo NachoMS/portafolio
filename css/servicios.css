@@ -20,7 +20,8 @@
 .titulos {
     font-size: 30px;
     font-weight: 400;
-    color: var(--rosa);    
+    color: var(--rosa); 
+    margin-bottom: 15px;   
 }
 
 .servicios .proyectos .tarjetas {
@@ -101,5 +102,18 @@ body.dark .texto-servicios {
         margin: 5px 20px 20px 20px;
         height: 100%;
     }
+
+    .servicios .proyectos .tarjetas .card {
+        height: 430px;
+        max-width: 300px;
+        background: var(--blanco);
+        overflow: hidden;
+        margin: 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        transition: all 1s;
+    }
+    
 }
 
