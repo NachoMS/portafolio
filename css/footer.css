@@ -83,6 +83,10 @@ footer .pie .footer {
     margin-top: 10px;
 }
 
+.mail{
+    color: var(--blanco);
+}
+
 @media (max-width:950px){
 
     footer .contacto {
